@@ -5,6 +5,7 @@
 - [ESP32-DevKitC](https://www.espressif.com/en/products/hardware/esp32-devkitc/overview)  : espressif
 - [AE-ADMP441_K](http://akizukidenshi.com/catalog/g/gK-06864/) : Akizuki Denshi (or similar product using ADMP441)
 - [AE-MICRO-SD-DIP](http://akizukidenshi.com/catalog/g/gK-05488/) : Akizuki Denshi (or similar product for micro SD slot)
+- resistor 10kΩ x 4, 100kΩ x 1, capacitor 22pF x 1
 
 ## Wiring
 ![wiring1](doc/wiring.png)
