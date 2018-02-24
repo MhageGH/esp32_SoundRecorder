@@ -15,4 +15,4 @@
 - [arduino-esp32](https://github.com/espressif/arduino-esp32)
 
 ## How to use
-Set SD card. Turn on the power, and start recording.
+Set SD card. Turn on the power. And start recording sound and save as wav file (16bit, monoral, 44.1kHz) in SD card.
