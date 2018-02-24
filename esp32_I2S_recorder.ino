@@ -34,15 +34,6 @@ void setup() {
   }
   file.close();
   Serial.println("finish");
-  
-//  file = SD.open(filename, FILE_READ);
-//  file.seek(0x2C);
-//  for (int i = 0; i < waveDataSize/2; ++i) {
-//    unsigned short lower = (unsigned short)file.read();
-//    unsigned short upper = (unsigned short)(file.read() << 8);
-//    signed short d = (signed short)(upper | lower);
-//    Serial.println(d);
-//  }
 }
 
 void loop() {
