@@ -25,6 +25,7 @@ void I2S_Init(i2s_mode_t MODE, i2s_bits_per_sample_t BPS) {
   i2s_driver_install(I2S_NUM_0, &i2s_config, 0, NULL);
   i2s_set_pin(I2S_NUM_0, &pin_config);
   i2s_set_clk(I2S_NUM_0, SAMPLE_RATE, BPS, I2S_CHANNEL_STEREO);
+  //test
 }
 
 int I2S_Read(char* data, int numData) {
