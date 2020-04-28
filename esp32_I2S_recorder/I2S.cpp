@@ -30,7 +30,8 @@ void I2S_Init(i2s_mode_t MODE, i2s_bits_per_sample_t BPS)
   } 
   else if (MODE == I2S_MODE_DAC_BUILT_IN || MODE == I2S_MODE_ADC_BUILT_IN) {
     i2s_driver_install(I2S_NUM_0, &i2s_config, 0, NULL);
-    i2s_set_adc_mode(ADC_UNIT_1, ADC1_CHANNEL_0);  // GPIO36, VP
+    // GPIO36, VP
+    i2s_set_adc_mode(ADC_UNIT_1, ADC1_CHANNEL_0);  
   }
 }
 
