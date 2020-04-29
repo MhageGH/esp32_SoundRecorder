@@ -12,7 +12,7 @@
 
 ### Wiring MAX9814 (without I2S interface)
 
-The SD card wiring is the same as above (i didint have to use pullup resistors with my SD card module)
+The SD card wiring is the same as above (for my sd card adapter, pullup resistors weren't necessary)
 
 MAX9814 Wiring:
 MAX9814 |   ESP32
