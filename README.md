@@ -24,6 +24,7 @@ Gain - if it's not connected is 60dB Gain, if its connected to Gnd it's 50dB, an
 
 Note: if you want to change the Esp32 VP pin to another, use [this image](https://lastminuteengineers.com/wp-content/uploads/arduino/ESP32-Development-Board-Pinout.png) and change `ADC1_CHANNEL_0` in I2S.cpp file accordingly.
 
+i used information from [this example](https://github.com/espressif/esp-idf/blob/master/examples/peripherals/i2s_adc_dac/main/app_main.c)
 
 ## Development Environment
 - [Arduino IDE](https://www.arduino.cc/en/main/software)
