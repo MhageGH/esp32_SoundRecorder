@@ -10,7 +10,7 @@
 ## Wiring microphone with I2S interface
 ![wiring1](doc/wiring.png)
 
-### Wiring MAX9814 (without I2S interface)
+### Wiring MAX9814 (without I2S interface) by [ligantx](https://github.com/ligantx)
 ![WiringMax9814](doc/wiring_MAX9814.jpg)
 The SD card wiring is the same as above (for my sd card adapter, pullup resistors weren't necessary)
 
