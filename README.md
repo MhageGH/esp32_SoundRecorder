@@ -16,11 +16,11 @@ The SD card wiring is the same as above (for my sd card adapter, pullup resistor
 
 MAX9814 Wiring:
 MAX9814 |   ESP32
-GND - GND
-Vdd - 3V3
-Out - VP (GPIO36)
-AR - dont connect
-Gain - if it's not connected is 60dB Gain, if its connected to Gnd it's 50dB, and if it's connected to Vdd it's 40dB
+GND - GND  
+Vdd - 3V3  
+Out - VP (GPIO36)  
+AR - dont connect  
+Gain - if it's not connected is 60dB Gain, if its connected to Gnd it's 50dB, and if it's connected to Vdd it's 40dB  
 
 Note: if you want to change the Esp32 VP pin to another, use [this image](https://lastminuteengineers.com/wp-content/uploads/arduino/ESP32-Development-Board-Pinout.png) and change `ADC1_CHANNEL_0` in I2S.cpp file accordingly.
 
