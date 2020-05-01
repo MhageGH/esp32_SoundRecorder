@@ -14,8 +14,8 @@
 ![WiringMax9814](doc/wiring_MAX9814.jpg)
 The SD card wiring is the same as above (for my sd card adapter, pullup resistors weren't necessary)
 
-MAX9814 Wiring:
-MAX9814 |   ESP32
+MAX9814 Wiring:  
+MAX9814 |   ESP32  
 GND - GND  
 Vdd - 3V3  
 Out - VP (GPIO36)  
