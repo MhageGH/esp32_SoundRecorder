@@ -21,7 +21,7 @@ char communicationData[numCommunicationData];
 char partWavData[numPartWavData];
 File file;
 
-
+//https://github.com/espressif/arduino-esp32/blob/master/libraries/SPIFFS/examples/SPIFFS_Test/SPIFFS_Test.ino
 void listDir(fs::FS& fs, const char* dirname, uint8_t levels) {
   // Serial.printf("Listing directory: %s\r\n", dirname);
 
@@ -59,8 +59,8 @@ void setup() {
     Serial.println("SPIFFS Mount Failed");
     return;
   }
-  // https://gitter.im/espressif/arduino-esp32?at=5dfeb2170cb24d1d44fd6d1c
-  SPIFFS.format();
+  // https://gitter.im/espressif/arduino-esp32?at=5dffa2c7260751301cf1455b
+  // do NOT remove the following line  SPIFFS.format();
   CreateWavHeader(header, waveDataSize);
   SPIFFS.remove(filename);
   file = SPIFFS.open(filename, FILE_WRITE);
